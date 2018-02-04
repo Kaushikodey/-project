@@ -1,0 +1,157 @@
+
+epoch: 1
+x input:['1', '1', '1', '1']
+Y input:0
+Y output:0
+True output t:1
+Updated weight: [1, 1, 1, 1]
+
+x input:['1', '-1', '1', '1']
+Y input:0
+Y output:1
+True output t:-1
+Updated weight: [0, 2, 0, 0]
+
+x input:['1', '1', '-1', '1']
+Y input:2
+Y output:1
+True output t:-1
+Updated weight: [-1, 1, 1, -1]
+
+x input:['1', '1', '1', '-1']
+Y input:2
+Y output:1
+True output t:-1
+Updated weight: [-2, 0, 0, 0]
+
+
+epoch: 2
+x input:['1', '1', '1', '1']
+Y input:2
+Y output:-1
+True output t:1
+Updated weight: [-1, 1, 1, 1]
+
+x input:['1', '-1', '1', '1']
+Y input:-2
+Y output:0
+True output t:-1
+Updated weight: [-2, 2, 0, 0]
+
+x input:['1', '1', '-1', '1']
+Y input:0
+Y output:0
+True output t:-1
+Updated weight: [-3, 1, 1, -1]
+
+x input:['1', '1', '1', '-1']
+Y input:0
+Y output:0
+True output t:-1
+Updated weight: [-4, 0, 0, 0]
+
+
+epoch: 3
+x input:['1', '1', '1', '1']
+Y input:0
+Y output:-1
+True output t:1
+Updated weight: [-3, 1, 1, 1]
+
+x input:['1', '-1', '1', '1']
+Y input:-4
+Y output:-1
+True output t:-1
+Updated weight: [-3, 1, 1, 1]
+
+x input:['1', '1', '-1', '1']
+Y input:-2
+Y output:-1
+True output t:-1
+Updated weight: [-3, 1, 1, 1]
+
+x input:['1', '1', '1', '-1']
+Y input:-2
+Y output:-1
+True output t:-1
+Updated weight: [-3, 1, 1, 1]
+
+
+epoch: 4
+x input:['1', '1', '1', '1']
+Y input:-2
+Y output:0
+True output t:1
+Updated weight: [-2, 2, 2, 2]
+
+x input:['1', '-1', '1', '1']
+Y input:0
+Y output:0
+True output t:-1
+Updated weight: [-3, 3, 1, 1]
+
+x input:['1', '1', '-1', '1']
+Y input:0
+Y output:0
+True output t:-1
+Updated weight: [-4, 2, 2, 0]
+
+x input:['1', '1', '1', '-1']
+Y input:0
+Y output:0
+True output t:-1
+Updated weight: [-5, 1, 1, 1]
+
+
+epoch: 5
+x input:['1', '1', '1', '1']
+Y input:0
+Y output:-1
+True output t:1
+Updated weight: [-4, 2, 2, 2]
+
+x input:['1', '-1', '1', '1']
+Y input:-2
+Y output:-1
+True output t:-1
+Updated weight: [-4, 2, 2, 2]
+
+x input:['1', '1', '-1', '1']
+Y input:-2
+Y output:-1
+True output t:-1
+Updated weight: [-4, 2, 2, 2]
+
+x input:['1', '1', '1', '-1']
+Y input:-2
+Y output:-1
+True output t:-1
+Updated weight: [-4, 2, 2, 2]
+
+
+epoch: 6
+x input:['1', '1', '1', '1']
+Y input:-2
+Y output:1
+True output t:1
+Updated weight: [-4, 2, 2, 2]
+
+x input:['1', '-1', '1', '1']
+Y input:2
+Y output:-1
+True output t:-1
+Updated weight: [-4, 2, 2, 2]
+
+x input:['1', '1', '-1', '1']
+Y input:-2
+Y output:-1
+True output t:-1
+Updated weight: [-4, 2, 2, 2]
+
+x input:['1', '1', '1', '-1']
+Y input:-2
+Y output:-1
+True output t:-1
+Updated weight: [-4, 2, 2, 2]
+
+Final weight is :[-4, 2, 2, 2]
